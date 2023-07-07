@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "My Site",
+    "name": "網站 SEO 測試",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -23,11 +23,11 @@
         "display7Size": 1.2,
         "display4Font": "Jost",
         "display4Size": 1.1,
-        "isRoundedButtons": false,
-        "isGhostButtonBorder": false,
+        "isRoundedButtons": true,
+        "isGhostButtonBorder": true,
         "underlinedLinks": false,
-        "isAnimatedOnScroll": false,
-        "isScrollToTopButton": false
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
       },
       "additionalSetColors": []
     },
@@ -44,7 +44,36 @@
     "versionPublish": "5.8.14",
     "imageResize": true,
     "screenshot": "screenshot.png",
-    "publishChangesOnly": false
+    "publishChangesOnly": true,
+    "usedWebp": true,
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://openmingyi.github.io/mobirise/",
+    "sitemapSwitcherAuto": "on",
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#424a4d",
+      "colorBg": "#ffffff",
+      "colorButton": "#353535",
+      "rejectColor": "#ffffff",
+      "colorLink": "#424a4d",
+      "underlineLink": true,
+      "opacityOverlay": "100",
+      "bgOpacity": "100",
+      "text": "We use cookies to give you the best experience as specified in the <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "ACCEPT",
+      "rejectText": "REJECT"
+    },
+    "cookiesAlertType": "3",
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
+    },
+    "favicon": false,
+    "mbrsiteDomain": "vham2xhiqy"
   },
   "pages": {
     "index.html": {
